@@ -1,25 +1,99 @@
 ﻿using System;
 
-int quantidadeEstoque = 0;
-int quantidadeCompra = 10;
-bool possivelRealizarCompra = quantidadeEstoque >= quantidadeCompra;
+// Console.WriteLine("Digite uma letra: ");
+// string entrada = Console.ReadLine().ToLower();
 
-Console.WriteLine("Quantidade em estoque: " + quantidadeEstoque);
-Console.WriteLine("Quantidade da compra: " + quantidadeCompra);
-Console.WriteLine($"É possível realizar a compra? {possivelRealizarCompra}"); // true ou false
+// // Verifica se foi digitado apenas UM caractere e se é uma letra
+// // entrada.Length == 1 verifica se é 1 caractere
+// //char.IsLetter verifica se é uma letra ou @,%<! etc
+// // && é o "E" lógico, ou seja, as duas condições precisam ser verdadeiras, tipo um booleano
+// //(entrada[0]) só aceita 1 caractere, o primeiro da string, (entrada[1]) seria o segundo caractere e assim vai
 
-if (quantidadeCompra <= 0)
-{
-    Console.WriteLine("Quantidade de compra inválida!");
-}
-else if (possivelRealizarCompra)
-{
-    Console.WriteLine("Venda válida!");
-}
-else
-{
-    Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque!");
-}
+// if (entrada.Length == 1 && char.IsLetter(entrada[0]))
+// {
+//     if ("aeiou".Contains(entrada))
+//     {
+//         Console.WriteLine("Vogal");
+//     }
+//     else
+//     {
+//         Console.WriteLine("Consoante");
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Entrada inválida! Digite apenas uma letra.");
+// }
+
+
+// Console.WriteLine("Digite uma letra: ");
+// string letra = Console.ReadLine().ToLower(); // deixa em minúsculo para evitar erro
+
+// switch (letra)
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         Console.WriteLine("Vogal");
+//         break;
+//     default:
+//         Console.WriteLine("Consoante");
+//         break;
+// }
+
+
+//switch case
+// Console.WriteLine("Digite uma letra: ");
+// string letra = Console.ReadLine();
+
+// if (letra == "a")
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else if (letra == "e")
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else if (letra == "i")
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else if (letra == "o")
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else if (letra == "u")
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else
+// {
+//     Console.WriteLine("Consoante");
+// }
+
+//decisão (if, else if, else)
+// int quantidadeEstoque = 9;
+// int quantidadeCompra = 0;
+// bool possivelRealizarCompra = quantidadeCompra > 0 && quantidadeEstoque >= quantidadeCompra;
+
+// Console.WriteLine("Quantidade em estoque: " + quantidadeEstoque);
+// Console.WriteLine("Quantidade da compra: " + quantidadeCompra);
+// Console.WriteLine($"É possível realizar a compra? {possivelRealizarCompra}"); // true ou false
+
+// if (quantidadeCompra == 0)
+// {
+//     Console.WriteLine("Venda inválida!");
+// }
+// else if (possivelRealizarCompra)
+// {
+//     Console.WriteLine("Venda realizada com sucesso!");
+// }
+// else //caso o if e else if sejam falsos, executa o else
+// {
+//     Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque!");
+// }
 
 //--------------------------------------------------------------------------------
 // precedência de operadores
