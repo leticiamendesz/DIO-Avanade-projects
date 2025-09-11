@@ -1,0 +1,12 @@
+C:\Users\letic\Documents\Objeto.Dotnet\MeuProjeto\MeuProjeto.Models\bin\Debug\net9.0\MeuProjeto.Models.deps.json
+C:\Users\letic\Documents\Objeto.Dotnet\MeuProjeto\MeuProjeto.Models\bin\Debug\net9.0\MeuProjeto.Models.dll
+C:\Users\letic\Documents\Objeto.Dotnet\MeuProjeto\MeuProjeto.Models\bin\Debug\net9.0\MeuProjeto.Models.pdb
+C:\Users\letic\Documents\Objeto.Dotnet\MeuProjeto\MeuProjeto.Models\obj\Debug\net9.0\MeuProjeto.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\letic\Documents\Objeto.Dotnet\MeuProjeto\MeuProjeto.Models\obj\Debug\net9.0\MeuProjeto.Models.AssemblyInfoInputs.cache
+C:\Users\letic\Documents\Objeto.Dotnet\MeuProjeto\MeuProjeto.Models\obj\Debug\net9.0\MeuProjeto.Models.AssemblyInfo.cs
+C:\Users\letic\Documents\Objeto.Dotnet\MeuProjeto\MeuProjeto.Models\obj\Debug\net9.0\MeuProjeto.Models.csproj.CoreCompileInputs.cache
+C:\Users\letic\Documents\Objeto.Dotnet\MeuProjeto\MeuProjeto.Models\obj\Debug\net9.0\MeuProjeto.Models.sourcelink.json
+C:\Users\letic\Documents\Objeto.Dotnet\MeuProjeto\MeuProjeto.Models\obj\Debug\net9.0\MeuProjeto.Models.dll
+C:\Users\letic\Documents\Objeto.Dotnet\MeuProjeto\MeuProjeto.Models\obj\Debug\net9.0\refint\MeuProjeto.Models.dll
+C:\Users\letic\Documents\Objeto.Dotnet\MeuProjeto\MeuProjeto.Models\obj\Debug\net9.0\MeuProjeto.Models.pdb
+C:\Users\letic\Documents\Objeto.Dotnet\MeuProjeto\MeuProjeto.Models\obj\Debug\net9.0\ref\MeuProjeto.Models.dll

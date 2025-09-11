@@ -9,24 +9,23 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 namespace MeuProjeto.Models;
-// {
-//     public class Pessoa
-// {
-//     public string Nome { get; set; }
-//     public int Idade { get; set; }
-//     public Pessoa(string nome, int idade)
+    public class Pessoa
+{
+    public string Nome { get; set; }
+    public int Idade { get; set; }
+    public Pessoa(string nome, int idade)
 
-//     {
-//         Nome = nome;
-//         Idade = idade;
-//     }
+    {
+        Nome = nome;
+        Idade = idade;
+    }
 
-//     public void Apresentar()
-//     {
-//         Console.WriteLine($"Olá, meu nome é {Nome} e eu tenho {Idade} anos.");
-//     }
-// }
-// }
+    public void Apresentar()
+    {
+        Console.WriteLine($"Olá, meu nome é {Nome} e eu tenho {Idade} anos.");
+    }
+}
+
 
 
 // outra alternativa: Console.WriteLine($"Olá, meu nome é" + $"{Nome} e eu tenho {Idade} anos.");
