@@ -2,25 +2,25 @@
 // para não haver confusões na hora de consultar um namespace é necessário que não seja nomes iguais. mas se pode usar .Models para armazenar na pasta "Models"
 //get = pega o 'Nome' por exemplo e você consegue por ele no console e set é dar o valor da variável
 
-// namespace MeuProjeto.Models;
+namespace MeuProjeto.Models;
 
-//     public class Pessoa
+    public class Pessoa
 
-// {
-//     public string Nome { get; set; }
-//     public int Idade { get; set; }
-//     public Pessoa(string nome, int idade)
+{
+    public string Nome { get; set; }
+    public int Idade { get; set; }
+    public Pessoa(string nome, int idade)
 
-//     {
-//         Nome = nome;
-//         Idade = idade;
-//     }
+    {
+        Nome = nome;
+        Idade = idade;
+    }
 
-//     public void Apresentar()
-//     {
-//         Console.WriteLine($"Olá, meu nome é {Nome} e eu tenho {Idade} anos.");
-//     }
-// }
+    public void Apresentar()
+    {
+        Console.WriteLine($"Olá, meu nome é {Nome} e eu tenho {Idade} anos.");
+    }
+}
 
 
 
